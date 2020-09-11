@@ -1,0 +1,132 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	width: 100%;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #d2d7ff;
+	padding: 150px 0 150px 0;
+	font-family: 'Karla', sans-serif;
+	font-size: 12pt;
+}
+
+#artemis-logo {
+	margin: 0 0 -20px 0;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 48pt;
+	font-family: 'Pacifico', cursive;
+}
+
+input[type=submit] {
+	padding: 5px 10px;
+	background-color: #606dc8;
+	color: #ffffff;
+	font-family: 'Karla', sans-serif;
+	font-size: 14pt;
+	border: none;
+	border-radius: 4px;
+	margin: 5px;
+}
+
+.searchField {
+	padding: 7px 10px;
+	margin: 5px;
+	text-align: center;
+	border: none;
+}
+
+#interactiveContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 250px;
+	margin: 0 auto;
+}
+
+#searchBar {
+	margin: 0 auto;
+}
+
+#addContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 250px;
+	margin: 50px auto 0 auto;
+}
+
+#addBar {
+	margin: 0 auto;
+}
+
+#mainContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+#resultTable {
+	text-align: center;
+	margin: 75px auto;
+	font-family: 'Karla', sans-serif;
+	border-radius: 3px;
+	width: 100%;
+}
+
+#resultTable th {
+	background-color: #606dc8;
+	color: #ffffff;
+	padding: 20px 10px;
+}
+
+#resultTable tr {
+	background-color: #ffffff;
+	color: #606dc8;
+}
+
+#resultTable td {
+	padding: 20px 10px;
+}
+
+#notFoundNotice {
+	text-align: center;
+	margin: 75px;
+	color: #606dc8;
+	font-weight: 700;
+}
+
+#addOption {
+	margin: 15px auto 0 auto;
+	color: #606dc8;
+	font-family: 'Karla', sans-serif;
+	text-decoration: none;
+}
+
+#addOption:visited {
+	color: #606dc8;
+}
+
+select {
+	text-align-last: center;
+	text-indent: 12px;
+	color: #6e6e6e;
+	padding: 25px -5px;
+	margin: 5px auto 5px auto;
+	width: 240px;
+	font-size: 10pt;
+	border: none;
+	height: 27px;
+}
