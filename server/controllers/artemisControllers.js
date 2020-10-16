@@ -190,7 +190,7 @@ artemisController.sendClient = (req, res, next) => {
 		WHERE p.name=$1 AND o.owner_id=$2
 	`;
   // $1 = petName & $2 = ownerName
-  const queryParams = [newPetName, sendOwnerId];
+  const queryParams = [newPetName, sendOwn];
 
   db.query(clientTable, queryParams)
     .then(result => {
